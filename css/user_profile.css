@@ -1,0 +1,315 @@
+/* Container's styling */
+
+.row{
+	text-align: center;
+	width: 100%;
+}
+
+.container_profile{
+	background: #cae3fe;
+	height: 80%;
+	width: 58%;
+	left: 21%;
+	right: 21%;
+	position: relative;
+	border-radius: 1rem;
+
+	margin-top:5%;
+	padding:2%;
+}
+
+
+.container_profile > h1{
+	text-align: center;
+}
+
+row.h4{
+	text-align: center;
+}
+
+.row.col-sm-10 > h1{
+	left: 40%;
+}
+
+.sub_cont{
+	float: left;
+	width: 50%;
+}
+
+.sub_cont > h3{
+	text-align: 50%;
+}
+
+.nav-tabs{
+    background: #0062cc;
+    border-radius: 1.5rem;
+    height: 46px;
+    width: 55%;
+}
+.nav-tabs .nav-link{
+    height: 40px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.nav > li > a:hover{
+  border: none;
+  color : white;
+  background-color: inherit;
+}
+
+.nav-tabs .nav-link.active{
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+/* Restrict the length of input bars */
+.form-group > input{
+  width:500px;
+}
+
+/* Restrict the length of select bar */
+.form-group > select{
+  width:500px;
+}
+
+.signup-btn{
+  margin-top: 50px;
+}
+
+#cont > h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #495057;
+}
+
+.signup-help{
+  padding-top: 10px;
+  font-size: 12px;
+}
+.signup-help > a:visited{
+  color: grey;
+}
+.signup-help > a:link{
+  color: grey;
+}
+
+#home:hover{
+  background-color: #F88101;
+  color: black;
+}
+
+#inputCity{
+  width:250px;
+}
+
+#inputZip{
+    width:120px;
+    margin-left: 0px;
+}
+
+.fa-info-circle{
+    color: #495057;
+}
+
+
+#avatar{
+    width: 205px;
+    height: 113px;
+}
+
+/* Name and Profession */
+.head h5{
+    color: #333;
+}
+.head h6{
+    color: #0062cc;
+}
+
+.current-semester{
+  font-size: 12px;
+  color: #818182;
+  margin-top: 5%;
+}
+
+.current-semester span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Tabs' styling */
+.nav-tabs{
+    margin-bottom:3%;
+}
+.nav-tabs .nav-link{
+    font-weight:400;
+    border: none;
+    color: #0062cc;
+}
+
+.profile-info > ul > li > a:hover{
+  background-color: white;
+}
+.nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+
+#cont{
+  background: #e3f2fd;
+  padding: 2%;
+  border-radius: 1rem;
+}
+
+/* Tab-Panes' styling [inf-tab and stats-tab]*/
+#info label{
+    font-weight: 600;
+    margin-left: 20px;
+    color: #0062cc;
+}
+#info p{
+    font-weight: 400;
+    margin-left: -100px;
+}
+
+#stats label{
+    font-weight: 600;
+    margin-left: 20px;
+    color: #0062cc;
+}
+#stats p{
+    font-weight: 400;
+}
+
+#avatar{
+    width: 205px;
+    height: 113px;
+}
+
+/* "Change Photo" option */
+.file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -19%;
+    width: 205px;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+/* Name and Profession */
+.head h5{
+    color: #333;
+}
+.head h6{
+    color: #0062cc;
+}
+
+.current-semester{
+  font-size: 12px;
+  color: #818182;
+  margin-top: 5%;
+}
+
+.current-semester span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Tabs' styling */
+.nav-tabs{
+    margin-bottom:3%;
+}
+.nav-tabs .nav-link{
+    font-weight:400;
+    border: none;
+    color: #0062cc;
+}
+
+.profile-info > ul > li > a:hover{
+  background-color: white;
+}
+.nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+
+/* Restrict the length of input bars */
+.form-group > input, .form-group > select{
+  width:500px;
+}
+
+
+/*
+.btn-success{
+  margin-top: 30px;
+}
+*/
+/* Change table-stripe colour */
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #e3f2fd;
+}
+
+
+.user{
+	background-color: grey;
+	width: 100%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row .table100{
+	width: 100% !important;
+	margin-top: 5%;
+	left:2%;
+}
+
+.row{
+	margin: 0px;
+}
+
+
+
+.row100{text-align: start;}
+	
+button[type=edit]{
+	text-decoration: underline;
+}
+
+#cancel_button :hover{
+	color: #000fff;
+}
+
+#cancel_button :hover{
+	color: #000fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 

@@ -1,0 +1,13 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.button{
+    width: 10%;
+    height: 40%;
+    margin-left: 45%;
+    font-size:30px;
+}

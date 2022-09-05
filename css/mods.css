@@ -1,0 +1,35 @@
+.intro-header {
+    background: center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 10%;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 44%;
+    height: auto;
+    margin-left: 22%;
+}
+
+.linkheader{
+    font-size: 2rem;
+}
+
+p {
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    -webkit-tap-highlight-color: #0085A1;
+}
+
+article{
+	
+	position:relative;
+	left:10%;
+}

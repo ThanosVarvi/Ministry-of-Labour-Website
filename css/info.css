@@ -1,0 +1,62 @@
+.container_info{
+	position: relative; 
+	margin-top: 8%;
+	
+	width: 50%;
+	left:25%;
+	
+	background: #e3f2fd;
+	padding: 2%;
+	border-radius: 1rem;
+}
+
+.row{
+	width: 100%;
+	text-align: center;
+}
+
+.col{
+	width: 100%;
+	border: 1%;
+}
+
+.row {
+	justify-content: center;
+}
+
+.container_info{
+	background: #cae3fe;
+}
+
+.row > legend{
+	text-align: center;
+}
+
+.row > ul > li{
+	text-align: center;
+	font-size: 200px;
+}
+
+.container_info > h2{text-align: center;}
+
+button[type=submit] {
+  background-color: #35ee;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  right: 0;
+}
+
+button[type=submit] :hover{background-color: #35ef;}
+
+
+
+
+
+
+
+
+
+

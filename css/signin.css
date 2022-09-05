@@ -1,0 +1,57 @@
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+.container {
+  padding-bottom: 0;
+}
+.card-signin {
+  background-color: #e3f2fd;
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  width:125%;
+  margin-top:5%;
+  right:10%;
+  
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-group > input{
+  border-radius: 5rem;
+}
+
+.login-help{
+  padding-top: 10px;
+  font-size: 12px;
+}
+.login-help > a:visited{
+  color: grey;
+}
+.login-help > a:link{
+  color: grey;
+}
+
+.card-body > form > div > .btn{
+    margin-top: 10px;
+    border-radius: 5rem;
+}
+
+/* Do not underline "SignIn" button on hover */
+.card-body > div > a:hover{
+  text-decoration: none;
+}

@@ -1,0 +1,94 @@
+/* Container's styling */
+#cont{
+  position:relative;
+  background: #e3f2fd;
+  padding: 2%;
+  border-radius: 1rem;
+
+
+  top:18%;
+
+  width: 60%;
+
+
+}
+
+.nav-tabs{
+    background: #0062cc;
+    border-radius: 1.5rem;
+    height: 46px;
+    width: 55%;
+}
+.nav-tabs .nav-link{
+    height: 40px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.nav > li > a:hover{
+  border: none;
+  color : white;
+  background-color: inherit;
+}
+
+.nav-tabs .nav-link.active{
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+/* Restrict the length of input bars */
+.form-group > input{
+  width:500px;
+}
+
+/* Restrict the length of select bar */
+.form-group > select{
+  width:500px;
+}
+
+.signup-btn{
+  margin-top: 50px;
+}
+
+#cont > h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #495057;
+}
+
+.signup-help{
+  padding-top: 10px;
+  font-size: 12px;
+}
+.signup-help > a:visited{
+  color: grey;
+}
+.signup-help > a:link{
+  color: grey;
+}
+
+#home:hover{
+  background-color: #F88101;
+  color: black;
+}
+
+#inputCity{
+  width:250px;
+}
+
+#inputZip{
+    width:120px;
+    margin-left: 0px;
+}
+
+.fa-info-circle{
+    color: #495057;
+}

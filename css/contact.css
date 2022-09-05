@@ -1,0 +1,40 @@
+.container_contact{
+	position: relative; 
+	margin-top: 8%;
+	top:30%;
+	left: 23%;
+	width: 55%;
+	right: 20;
+	background: #e3f2fd;
+	padding: 3%;
+	border-radius: 1rem;
+}
+
+.container_contact > h2{
+	text-align: center;
+}
+
+
+.btn .btn-primary .pull-right{
+	color: red;
+}
+
+input[type=submit] {
+  background-color: #35ee;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  right: 0;
+}
+
+
+input[type=submit]:hover {
+  background-color: #35ef;
+}
+
+main-menu{
+	margin-top: 0px;
+	height: inherit;
+}
