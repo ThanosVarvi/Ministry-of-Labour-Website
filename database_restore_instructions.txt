@@ -1,0 +1,5 @@
+open xampp
+login to phpmyadmin
+create database named ypakp_database
+import/import users.zip file
+and the base is ready to use
